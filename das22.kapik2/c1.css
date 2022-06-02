@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#a1 h1{
+    font-size: 20px;
+    color: white;
+}
+#a1 h1:hover{
+    font-size: 50px;
+    color: yellow;
+
+}
+.divmer1{
+    width: 100%;
+    height: 640px;
+    background-image: url(img/fon4.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+
+}
+.divmer2{
+    width: 100%;
+    height: 640px;
+    background-image: url(img/jung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+
+}
+.divmer3{
+    width: 100%;
+    height: 640px;
+    background-image: url(img/jung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+
+}
+.divmer1 div{
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.divmer2 div{
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.divmer3 div{
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.div1{
+left: 280px;
+top: 260px;
+background-image: url(img/banana1.png);
+width: 45px;
+height: 45px;
+animation: rotate 10s infinite linear;
+}
+
+.div2{
+    left: 50px;
+    top: 400px;
+background-image: url(img/banana1.png);
+width: 45px;
+height: 45px;
+animation: rotate 10s infinite linear;
+}
+.div3{
+    left: 350px;
+top: 550px;
+background-image: url(img/banana1.png);
+width: 45px;
+height: 45px;
+animation: rotate 10s infinite linear;
+}
+.div4{
+    left: 900px;
+top: 185px;
+width: 45px;
+height: 45px;
+background-image: url(img/banana1.png);
+animation: rotate 10s infinite linear;
+}
+.div5{
+    left: 1000px;
+    top:  40px;
+    width: 45px;
+    height: 45px;
+    background-image: url(img/banana1.png);
+    animation: rotate 10s infinite linear;
+}
+.div6{
+    left: 440px;
+    top: 330px;
+    width: 45px;
+    height: 45px;
+    background-image: url(img/banana1.png);
+    animation: rotate 10s infinite linear;
+}
+.div7{
+    left: 1250px;
+    top: 22px;
+    width: 45px;
+    height: 45px;
+    background-image: url(img/banana1.png);
+    animation: rotate 10s infinite linear;
+}
+.div8{
+    left: 1000px;
+    top: 280px;
+    width: 45px;
+    height: 45px;
+    background-image: url(img/banana1.png);
+    animation: rotate 10s infinite linear;
+}
+.div9{
+    left: 18px;
+    top: 470px;
+    width: 45px;
+    height: 45px;
+    background-image: url(img/banana1.png);
+    animation: rotate 10s infinite linear;
+}
+@keyframes rotate{
+    from{transform: rotate(360deg); }
+    to{transform: rotate(0deg);}
+}
+
+
+.imigigi{
+    height: 180px;
+    margin-bottom: 30px;
+
+}
+.kapik1{
+    position: absolute;
+    background-image: url(img/nachat2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:500px;
+    left: 650px;
+    height: 120px;
+    width: 120px;
+}
+
+.kapik2{
+    background-image: url(img/qayl7.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:500px;
+    left: 650px;
+    height:100px;
+    width: 100px;
+}
+
+.kapik3{
+    background-image: url(img/qayl3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:500px;
+    left: 650px;
+    height: 100px;
+    width:100px;
+}
+.divbut{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    
+}
+.but1{
+    color: blue;
+    margin-top: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.but2{
+    color: red;
+    margin-top: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.but3{
+    color: violet;
+    margin-top: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.but4{
+    color: yellow;
+    margin-top: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.but1:hover{
+    opacity: 1;
+    font-size: 30px;
+
+}
+.but2:hover{
+    opacity: 1;
+    font-size: 30px;
+}
+.but3:hover{
+    opacity: 1;
+    font-size: 30px;
+}
+.but4:hover{
+    opacity: 1;
+    font-size: 30px;
+}
+.rr{
+    display: none;
+}
+#divtime1{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#bal{
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    background-color: black;
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+    left: 10px;
+    top: 100px;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+#time{
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    left: 92%;
+    top: 100px;
+    background-color: blueviolet;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+.divover{
+    width: 40%;
+    height: 500px;
+    position: absolute;
+    left: 30%;
+    top: 2px;
+    opacity: 0;
+    background-image: url(img/over22.png);
+
+}
+.divwin{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    left: 30%;
+    
+    opacity: 0;
+}
+
+.leon{
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top: 415px;
+    left: 20px;
+    animation: leon 10s  infinite linear;
+
+}
+.oriol{
+    position: absolute;
+    left: 1030px;
+    animation: oriol 6s  infinite linear ;
+}
+@keyframes oriol{
+    0%{left: 10px;}
+    100%{left: 1030px;}
+}
+@keyframes leon{
+    0%{left: 1030px;};
+    20%{left: 800px;};
+    40%{left: 700px;};
+    60%{left:600px;};
+    80%{left: 520px;};
+    100%{left: 20px;}
+}
+.oc{
+    margin-top: 410px;
+    margin-left: 1000px;
+}

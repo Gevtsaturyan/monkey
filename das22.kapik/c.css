@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.a1{
+    color: red;
+
+}
+.a11{
+    position: absolute;
+    color: blue;
+    display: none;
+    margin-left: 400px;
+}
+#a1{
+    margin-left: 50px;
+    text-align: center;
+    /* margin-top: 800px; */
+    
+    
+}
+.img1212{
+    margin-top: 245px;
+    margin-left: 25px;
+}
+#a1 h1{
+    font-size: 20px;
+    color: white;
+}
+#a1 h1:hover{
+    font-size: 50px;
+    color: yellow;
+
+}
+.divmer1{
+    width: 100%;
+    height: 680px;
+    background-image: url(img/jung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+
+}
+.divmer1 div{
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.div1{
+left: 200px;
+top: 250px;
+background-image: url(img/banana1.png);
+width: 45px;
+height: 45px;
+}
+.div2{
+    left: 500px;
+top: 40px;
+background-image: url(img/banana1.png);
+width: 45px;
+height: 45px;
+}
+.div3{
+    left: 650px;
+top: 250px;
+background-image: url(img/banana1.png);
+width: 45px;
+height: 45px;
+}
+.div4{
+    left: 900px;
+top: 125px;
+width: 45px;
+height: 45px;
+background-image: url(img/banana1.png);
+}
+.div5{
+    left: 1200px;
+    top:  450px;
+    width: 45px;
+    height: 45px;
+    background-image: url(img/banana1.png);
+}
+.div6{
+    left: 440px;
+    top: 330px;
+    width: 45px;
+    height: 45px;
+    background-image: url(img/banana1.png);
+}
+.div7{
+    left: 1250px;
+    top: 22px;
+    width: 45px;
+    height: 45px;
+    background-image: url(img/banana1.png);
+}
+.div8{
+    left: 1000px;
+    top: 280px;
+    width: 45px;
+    height: 45px;
+    background-image: url(img/banana1.png);
+}
+.div9{
+    left: 18px;
+    top: 470px;
+    width: 45px;
+    height: 45px;
+    background-image: url(img/banana1.png);
+}
+.kapik1{
+    position: absolute;
+    background-image: url(img/pobeda1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:500px;
+    left: 650px;
+    height: 120px;
+    width: 120px;
+}
+
+.kapik2{
+    background-image: url(img/qayl2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:500px;
+    left: 650px;
+    height:100px;
+    width: 100px;
+}
+
+.kapik3{
+    background-image: url(img/qayl3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:500px;
+    left: 650px;
+    height: 100px;
+    width:100px;
+}
+.divbut{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    
+}
+.but1{
+    width: 80px;
+    opacity: 0.4;
+    background-color: blue;
+    top: 15px;
+}
+.but2{
+    width: 80px;
+    opacity: 0.4;
+    background-color: chartreuse;
+    top: 15px;
+}
+.but3{
+    opacity: 0.4;
+    background-color: red;
+    top: 15px;
+}
+.but4{
+    opacity: 0.6;
+    background-color: gray;
+    top: 15px;
+}
+button:hover{
+    opacity: 1;
+}
+.rr{
+    display: none;
+}
+#divtime1{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#bal{
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+    left: 10px;
+    top: 80px;
+    opacity: 0.8;
+}
+
+#time{
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    left: 92%;
+    top: 80px;
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.divover{
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 100px;
+    opacity: 0;
+}
+.divwin{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    left: 30%;
+    
+    opacity: 0;
+}
+
+.leon{
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top: 300px;
+    left: 20px;
+    animation: leon 10s infinite linear;
+
+}
+@keyframes leon{
+    0%{left: 1100px; top:410px;transform: scale(1.5,1.5);};
+    20%{left: 800px;top:425px};
+    40%{left: 700px;top:415px;transform: scale(1.5,1.5);};
+    60%{left:600px;top:480px};
+    80%{left: 520px;top:490px;transform: scale(1.5,1.5);};
+    100%{left: 20px;top: 4500px;}
+}
